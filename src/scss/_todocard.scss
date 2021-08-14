@@ -1,0 +1,20 @@
+.todo-element {
+    text-align: left;
+
+    &:nth-child(2n+1) {
+        background-color: rgb(27, 53, 56);
+        color: white;
+    }
+
+    &:nth-child(2n) {
+        background-color: rgb(208, 239, 242);
+        color: black;
+    }
+
+    button {
+        border: red solid 1px;
+        background-color: white;
+        color: red;
+        margin: 0 1rem;
+    }
+}
